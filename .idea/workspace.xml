@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e71b531-769f-462f-acb3-332a7c730609" name="Changes" comment="added readne file for factory pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/LaptopBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/LaptopDirector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716729987400</updated>
-      <workItem from="1716729988299" duration="9191000" />
+      <workItem from="1716729988299" duration="9939000" />
     </task>
     <task id="LOCAL-00001" summary="added readne file for factory pattern">
       <option name="closed" value="true" />
