@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e71b531-769f-462f-acb3-332a7c730609" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/FactoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/creator/UberAssigner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/creator/UberCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/creator/UberShareCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/creator/UberXCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/creator/UberXLCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/product/UberShare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/product/UberVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/product/UberX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/creational/factory/product/UberXL.java" afterDir="false" />
+    <list default="true" id="1e71b531-769f-462f-acb3-332a7c730609" name="Changes" comment="added readne file for factory pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/LaptopBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/LaptopDirector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/builder/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +24,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -62,7 +49,7 @@
     "Gradle.designpatterns [:FactoryExample.main()].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -107,11 +94,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716729987400</updated>
-      <workItem from="1716729988299" duration="3680000" />
+      <workItem from="1716729988299" duration="9191000" />
     </task>
+    <task id="LOCAL-00001" summary="added readne file for factory pattern">
+      <option name="closed" value="true" />
+      <created>1716764979436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716764979436</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added readne file for factory pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="added readne file for factory pattern" />
   </component>
 </project>
