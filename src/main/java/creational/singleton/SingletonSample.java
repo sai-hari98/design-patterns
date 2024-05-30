@@ -1,9 +1,10 @@
 package creational.singleton;
 
-public class Main {
+public class SingletonSample {
 
     /**
      * Run the program with -D params
+     * Eg: -Dhost="localhost" -Dport="8080" -Ddatabase="singleton" -Dusername="saihari98" -Dpassword="saihari98"
      * @param args - arguments to the main function
      */
     public static void main(String[] args) {
