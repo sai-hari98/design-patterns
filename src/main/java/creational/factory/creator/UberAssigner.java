@@ -1,5 +1,6 @@
 package creational.factory.creator;
 
+import creational.factory.constant.UberType;
 import creational.factory.product.UberVehicle;
 
 public class UberAssigner {
@@ -20,6 +21,14 @@ public class UberAssigner {
             uberAssigner = new UberAssigner();
         }
         return uberAssigner;
+    }
+
+    public UberCreator getUberCreator(UberType uberType){
+        return switch (uberType) {
+            case UberType.UBERXL -> uberXLCreator;
+            case UberType.UBERSHARE -> uberShareCreator;
+            case UberType.UBERX -> uberXCreator;
+        };
     }
 
     public UberVehicle assignUberVehicle(String requestedType){
